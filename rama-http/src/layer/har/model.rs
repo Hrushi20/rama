@@ -2,7 +2,7 @@
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
-struct Har {
+pub(crate) struct Har {
     log: Log,
 }
 #[derive(Debug, Serialize, Deserialize)]
